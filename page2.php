@@ -1,8 +1,8 @@
 <?php
-  $variabile = $_GET['parola_1'];
-  $badWord = $_GET['bandita'];
+  $parola_1 = $_GET['parola_1'];
+  $bandita = $_GET['bandita'];
 
-  echo $variabile;
-  echo strlen('$variabile');
+  echo $parola_1 . '<br>';
+  echo 'La lunghezza è di ' . strlen($parola_1) . ' caratteri<br>';
 
-  echo str_replace('$badWord','***','$variabile');
+  echo str_replace($bandita,'***',$parola_1);

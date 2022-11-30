@@ -12,6 +12,7 @@
 <form action="./page2.php">
   <input type="text" name="parola_1">
   <input type="text" name="bandita">
+  <input type="submit" value="Invia">
 </form>
 
 
